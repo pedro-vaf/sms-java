@@ -59,9 +59,9 @@ Este projeto implementa uma API para envio de SMS utilizando o serviço Twilio.
 #### Request Body:
 ```json
 {
+  "sender": "Pedro",
   "ddd": "11",
   "phoneNumber": "987654321",
-  "sender": "Pedro",
   "message": "Olá, isso é um teste!"
 }
 ```
