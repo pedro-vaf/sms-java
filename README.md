@@ -2,13 +2,13 @@
 
 Este projeto implementa uma API para envio de SMS utilizando o serviço Twilio.
 
-## 📌 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - Java
 - Spring Boot
 - Twilio API
 - Swagger para documentação
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 📦 src/main/java/dev/pedro/smsapi
  ├── 📂 config
@@ -33,7 +33,7 @@ Este projeto implementa uma API para envio de SMS utilizando o serviço Twilio.
  ├── SmsApiApplication.java
 ```
 
-## ⚙️ Configuração
+## Configuração
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/seu-repo.git
@@ -53,7 +53,7 @@ Este projeto implementa uma API para envio de SMS utilizando o serviço Twilio.
    ./gradlew bootRun
    ```
 
-## 🚀 Endpoints
+## Endpoints
 ### Enviar SMS
 **POST** `/sms`
 #### Request Body:
@@ -74,9 +74,9 @@ Este projeto implementa uma API para envio de SMS utilizando o serviço Twilio.
 }
 ```
 
-## 📌 Observações
+## Observações
 - O número do remetente usado é o de teste do Twilio.
 - A API valida os números antes do envio.
 
 ---
-**Desenvolvido por Pedro Aquino** 🚀
+**Desenvolvido por Pedro Aquino** 
